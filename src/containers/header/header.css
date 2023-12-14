@@ -1,9 +1,7 @@
-/* Simplifiez temporairement les styles pour débuguer */
-.gpt3__header-content {
-    border: 1px solid red;
-  }
-  
-  .gardient__text {
-    color: black;
+.gradient__text {
+    background-image: linear-gradient(90deg, rgba(174, 103, 250, 1) 30%, rgba(244, 152, 103, 1) 75%);
+    -webkit-background-clip: text; /* Pour Safari et les anciennes versions de Chrome */
+    color: transparent;
+    text-fill-color: transparent; /* Pour les navigateurs modernes */
   }
   
