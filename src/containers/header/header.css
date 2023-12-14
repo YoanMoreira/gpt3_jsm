@@ -1,0 +1,9 @@
+/* Simplifiez temporairement les styles pour débuguer */
+.gpt3__header-content {
+    border: 1px solid red;
+  }
+  
+  .gardient__text {
+    color: black;
+  }
+  
